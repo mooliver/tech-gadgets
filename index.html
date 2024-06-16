@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/home-page.css">
     <script src="https://kit.fontawesome.com/bb60c0bfa8.js" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/script.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <span class="nav-title"><b>TechGadgets</b>.com</span>
+            <span class="nav-title"><a href="./index.html"><b>TechGadgets</b>.com</a></span>
             <span class="nav-links">
                 <a href="#novinky"><b>Novinky</b></a>
                 <a href="./nabidka/pocitace.html">Počítače</a>
@@ -36,10 +37,57 @@
         </div>
     </header>
     <main>
+        <section id="o-nas">
+            <h2>O nás</h2>
+            <div class="o-nas-content">
+                <span>
+                    <article>Náš tým je srdcem malé firmy, která se specializuje na prodej počítačů, serverů a široké škály příslušenství k elektronickým zařízením. Jsme skupina vášnivých odborníků, kteří se snaží přinést nejnovější technologie do rukou našich zákazníků. Naší prioritou je poskytovat odborný přístup a poradenství, abychom zajistili, že každý nákup je přesně na míru potřebám klienta. Věříme v budování dlouhodobých vztahů s našimi zákazníky prostřednictvím vynikajícího zákaznického servisu a podpory po prodeji.</article>
+                    <div class="o-nas-podpis">Tým TechGadgets.com</div>
+                </span>
+                <span>
+                    <img src="./assets/img/team.webp" alt="tým TechGadgets">
+                </span>
+            </div>
+        </section>
         <section id="novinky">
             <h2>Novinky</h2>
-            <
+            <div class="novinky-content">
+                <div class="novinky-item">
+                    <img src="./assets/img/computer.webp" alt="Počítač" class="novinky-img">
+                    <h3 class="novinky-title">OfficePC v2</h3>
+                    <p class="novinky-text">Cenově dostupné a výkonné řešení pro Vaši kancelář.</p>
+                    <div class="novinky-button">
+                        <a href="./nabidka/pocitace.html">Zjistit více</a>
+                    </div>
+                </div>
+                <div class="novinky-item">
+                    <img src="./assets/img/laptop.webp" alt="Notebook" class="novinky-img">
+                    <h3 class="novinky-title">TechBook</h3>
+                    <p class="novinky-text">Perfektní společník do práce, na cesty i do školy.</p>
+                    <div class="novinky-button">
+                        <a href="./nabidka/pocitace.html">Zjistit více</a>
+                    </div>
+                </div>
+                <div class="novinky-item">
+                    <img src="./assets/img/server.webp" alt="Server" class="novinky-img">
+                    <h3 class="novinky-title">ServerMini</h3>
+                    <p class="novinky-text">Ideální řešení pro malé podniky, domácnosti a školy.</p>
+                    <div class="novinky-button">
+                        <a href="./nabidka/servery.html" class="novinky-button">Zjistit více</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-content">
+            <span class="footer-copy">Vytvořil <a href="https://www.oliveer.eu" target="_blank">Oliveer</a> &copy; 2024</span>
+            <span class="footer-links">
+                <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#youtube"><i class="fa-brands fa-youtube"></i></a>
+            </span>
+        </div>
+    </footer>
 </body>
 </html>

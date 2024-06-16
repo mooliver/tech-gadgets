@@ -1,0 +1,51 @@
+/* Katalog */
+
+.katalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+    text-align: center;
+}
+
+.katalog-item img {
+    height: 10em;
+}
+
+.katalog ul {
+    list-style: none;
+    list-style-position: outside;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.katalog ul i {
+    color: var(--secondary);
+}
+
+.katalog-buttons {
+    padding: 0.9em 1.2em;
+}
+
+.katalog-button {
+    flex: 1;
+    color: var(--black);
+    text-decoration: none;
+    border: 1px solid var(--black);
+    border-radius: 0.6em;
+    padding: 0.9em 1.2em;
+    transition: 0.5s;
+}
+
+.katalog-button::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f07a";
+    padding-right: 0.6em;
+}
+
+.katalog-button:hover {
+    color: var(--white);
+    font-weight: 700;
+    background-color: var(--secondary);
+}
