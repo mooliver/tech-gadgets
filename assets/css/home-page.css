@@ -50,11 +50,18 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3em;
+    align-items: center;
 }
 
 .o-nas-content article {
     font-size: 1.2em;
     text-align: justify;
+}
+
+.o-nas-content article h2 {
+    font-size: auto;
+    text-align: center;
+    margin-bottom: auto;
 }
 
 .o-nas-podpis {
@@ -67,7 +74,8 @@ header {
 }
 
 .o-nas-content img {
-    height: 70%;
+    object-fit: cover;
+    width: 100%;
     border-radius: 0.5em;
 }
 
