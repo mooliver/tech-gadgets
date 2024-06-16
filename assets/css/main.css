@@ -25,7 +25,6 @@ body {
 header {
     max-width: 1024px;
     margin: 0 auto;
-    min-height: 100vh;
 }
 
 nav {
@@ -52,7 +51,7 @@ nav a {
     transition: 0.5s;
 }
 
-.nav-link:hover, .nav-button:hover {
+nav a:hover {
     color: var(--primary);
 }
 
@@ -61,43 +60,10 @@ nav a {
     margin-left: 3em;
 }
 
-.header-content {
-    display: flex;
-    height: auto;
-    margin: 10em 0;
-}
 
-.header-item {
-    flex: 1;
-    align-self: center;
-}
+/* Main */
 
-.header-item:last-child {
-    text-align: right;
-}
-
-.header-item h1 {
-    font-size: 2.5em;
-    margin-bottom: 1.5em;
-}
-
-.header-button {
-    color: var(--white);
-    background-color: var(--primary);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.8em 1em;
-    border-radius: 0.4em;
-    transition: 0.5s;
-}
-
-.header-button::before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    content: "\f07a";
-    padding-right: 1em;
-}
-
-.header-button:hover {
-    box-shadow: 0 0 1em var(--primary);
+main {
+    max-width: 1024px;
+    margin: 0 auto;
 }
