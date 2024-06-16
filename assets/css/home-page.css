@@ -127,3 +127,49 @@ header {
     color: var(--secondary);
     font-weight: 500;
 }
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1023px) {
+    .header-item:last-child {
+        display: none;
+    }
+
+    header {
+        min-height: 60vh;
+    }
+
+    .header-content {
+        margin: 2em 0;
+        text-align: center;
+    }
+
+    .header-item h1 {
+        margin-bottom: 1em;
+    }
+
+
+    .o-nas-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .o-nas-content article {
+        font-size: 0.9em;
+    }
+
+    .o-nas-content img {
+        height: auto;
+        width: 100%;
+    }
+
+    .novinky-content {
+        display: block;
+    }
+
+    .novinky-button {
+        padding: 0.8em 1.4em 2em; 
+        margin-bottom: 1em;
+    }
+}
