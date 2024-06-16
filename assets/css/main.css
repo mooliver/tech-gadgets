@@ -25,12 +25,14 @@ body {
 header {
     max-width: 1024px;
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 nav {
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding: 2em 0;
+    height: auto;
 }
 
 .nav-title {
@@ -46,7 +48,7 @@ nav {
 nav a {
     color: var(--black);
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 0.6em;
     transition: 0.5s;
 }
 
@@ -56,10 +58,46 @@ nav a {
 
 .nav-buttons {
     font-size: 1.6em;
-    margin-left: 50px;
+    margin-left: 3em;
 }
 
-main {
-    max-width: 1440px;
-    margin: 0 auto;
+.header-content {
+    display: flex;
+    height: auto;
+    margin: 10em 0;
+}
+
+.header-item {
+    flex: 1;
+    align-self: center;
+}
+
+.header-item:last-child {
+    text-align: right;
+}
+
+.header-item h1 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.header-button {
+    color: var(--white);
+    background-color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.8em 1em;
+    border-radius: 0.4em;
+    transition: 0.5s;
+}
+
+.header-button::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f07a";
+    padding-right: 1em;
+}
+
+.header-button:hover {
+    box-shadow: 0 0 1em var(--primary);
 }
