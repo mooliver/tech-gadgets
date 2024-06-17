@@ -46,8 +46,9 @@
 
 .katalog-button:hover {
     color: var(--white);
-    font-weight: 700;
+    font-weight: 600;
     background-color: var(--secondary);
+    border: none;
 }
 
 @media only screen and (max-width: 1023px) {
